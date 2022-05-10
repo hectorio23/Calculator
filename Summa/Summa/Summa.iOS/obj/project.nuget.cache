@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "erD3qeV62WvinIKQwiHVB2XrrnEL1pp5B9Q7fJNn5QtE2OANcW3cb7r8m89QmhB96JqfhmWJIWki5EwgtkX9bA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hecto\\Desktop\\Proyecto_IOS\\Summa\\Summa\\Summa.iOS\\Summa.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hecto\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\hecto\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\hecto\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}

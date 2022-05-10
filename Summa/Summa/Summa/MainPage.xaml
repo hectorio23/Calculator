@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Summa.MainPage">
+    
+    <!-- <Grid BackgroundColor="#FF8A7E">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="432"/>
+            <RowDefinition Height="648"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="0" BackgroundColor="#FF8A7E">
+            <Label Text="3 + 5 = 8" TextColor="#761000" FontSize="36" Grid.Column="3" Grid.Row="4"/>
+
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="0" BackgroundColor="#FFB89C" Padding="7">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="√ " Grid.Row="0" Grid.Column="0"  FontSize="24" TextColor="#761000"/>
+            <Button Text="X " Grid.Row="0" Grid.Column="1"  FontSize="24" TextColor="#761000"/>
+            <Button Text="/ " Grid.Row="0" Grid.Column="2" FontSize="24" TextColor="#761000"/>
+            <Button Text="&lt;" Grid.Row="0" Grid.Column="3" FontSize="24" TextColor="#761000"/>
+
+            <Button Text="7" Grid.Row="1" Grid.Column="0" TextColor="#761000" BackgroundColor="#FFB89C" FontSize="24"/>
+            <Button Text="8" Grid.Row="1" Grid.Column="1" TextColor="#761000" BackgroundColor="#FFB89C" FontSize="24" />
+            <Button Text="9" Grid.Row="1" Grid.Column="2" TextColor="#761000" BackgroundColor="#FFB89C" FontSize="24" />
+            <Button Text="—" Grid.Row="1" Grid.Column="3" FontSize="24" TextColor="#761000"/>
+
+            <Button Text="4" Grid.Row="2" Grid.Column="0" TextColor="#761000" BackgroundColor="#FFB89C" FontSize="24" />
+            <Button Text="5" Grid.Row="2" Grid.Column="1" TextColor="#761000" BackgroundColor="#FFB89C" FontSize="24" />
+            <Button Text="6" Grid.Row="2" Grid.Column="2" TextColor="#761000" BackgroundColor="#FFB89C" FontSize="24" />
+            <Button Text="+" Grid.Row="2" Grid.Column="3" FontSize="24" TextColor="#761000"/>
+
+            <Button Text="3" Grid.Row="3" Grid.Column="0" TextColor="#761000" BackgroundColor="#FFB89C" FontSize="24"/>
+            <Button Text="2" Grid.Row="3" Grid.Column="1" TextColor="#761000" BackgroundColor="#FFB89C" FontSize="24"/>
+            <Button Text="1" Grid.Row="3" Grid.Column="2" TextColor="#761000" BackgroundColor="#FFB89C" FontSize="24"/>
+            <Button Text="=" Grid.Row="3" Grid.Column="3" Grid.RowSpan="2" TextColor="#FFF" BackgroundColor="#761000" CornerRadius="5" FontSize="37"/>
+
+            <Button Text="f(X)" Grid.Row="4" Grid.Column="0" TextColor="#761000" BackgroundColor="#FFB89C" FontSize="24"/>
+            <Button Text="0" Grid.Row="4" Grid.Column="1" TextColor="#761000" BackgroundColor="#FFB89C" FontSize="24"/>
+            <Button Text="." Grid.Row="4" Grid.Column="2" TextColor="#761000" BackgroundColor="#FFB89C" FontSize="24"/>
+        </Grid>
+
+    </Grid> -->
+
+    <!-- <Grid BackgroundColor="#030F13" >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="432"/>
+            <RowDefinition Height="648"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition  />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="0" BackgroundColor="#030F13"></Grid>
+
+
+        <Grid Grid.Row="1" Grid.Column="0" BackgroundColor="#172C33" Padding="7" >
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="√ " Grid.Row="0" Grid.Column="0"  FontSize="24" CornerRadius="30" BackgroundColor="#F03B47" TextColor="#FFF"/>
+            <Button Text="X " Grid.Row="0" Grid.Column="1"  FontSize="24" CornerRadius="30" BackgroundColor="#F03B47" TextColor="#FFF"/>
+            <Button Text="/ " Grid.Row="0" Grid.Column="2" FontSize="24" CornerRadius="30" BackgroundColor="#F03B47" TextColor="#FFF"/>
+            <Button Text="&lt;" Grid.Row="0" Grid.Column="3" FontSize="24" CornerRadius="30" BackgroundColor="#F03B47" TextColor="#FFF"/>
+
+            <Button Text="7" Grid.Row="1" Grid.Column="0" TextColor="#FFF" BackgroundColor="#F03B47" FontSize="24" CornerRadius="30"/>
+            <Button Text="8" Grid.Row="1" Grid.Column="1" TextColor="#FFF" BackgroundColor="#F03B47" FontSize="24" CornerRadius="30"/>
+            <Button Text="9" Grid.Row="1" Grid.Column="2" TextColor="#FFF" BackgroundColor="#F03B47" FontSize="24" CornerRadius="30"/>
+            <Button Text="—" Grid.Row="1" Grid.Column="3" FontSize="24" CornerRadius="30" BackgroundColor="#F03b47" TextColor="#FFF"/>
+            <Button Text="4" Grid.Row="2" Grid.Column="0" TextColor="#FFF" BackgroundColor="#F03B47" FontSize="24" CornerRadius="30"/>
+            <Button Text="5" Grid.Row="2" Grid.Column="1" TextColor="#FFF" BackgroundColor="#F03B47" FontSize="24" CornerRadius="30"/>
+            <Button Text="6" Grid.Row="2" Grid.Column="2" TextColor="#FFF" BackgroundColor="#F03B47" FontSize="24" CornerRadius="30"/>
+            <Button Text="+" Grid.Row="2" Grid.Column="3" FontSize="24" CornerRadius="30" BackgroundColor="#F03B47" TextColor="#FFF"/>
+
+            <Button Text="3" Grid.Row="3" Grid.Column="0" TextColor="#FFF" BackgroundColor="#F03B47" FontSize="24" CornerRadius="30"/>
+            <Button Text="2" Grid.Row="3" Grid.Column="1" TextColor="#FFF" BackgroundColor="#F03B47" FontSize="24" CornerRadius="30"/>
+            <Button Text="1" Grid.Row="3" Grid.Column="2" TextColor="#FFF" BackgroundColor="#F03B47" FontSize="24" CornerRadius="30"/>
+            <Button Text="=" Grid.Row="3" Grid.Column="3" Grid.RowSpan="2" TextColor="#FFF" BackgroundColor="#F03B47" CornerRadius="60" FontSize="37"/>
+
+            <Button Text="f(X)" Grid.Row="4" Grid.Column="0" TextColor="#FFF" BackgroundColor="#F03B47" FontSize="24" CornerRadius="30"/>
+            <Button Text="0" Grid.Row="4" Grid.Column="1" TextColor="#FFF" BackgroundColor="#F03B47" FontSize="24" CornerRadius="30"/>
+            <Button Text="." Grid.Row="4" Grid.Column="2" TextColor="#FFF" BackgroundColor="#F03B47" FontSize="24" CornerRadius="30"/>
+        </Grid>
+
+    </Grid> -->
+    
+    
+    
+    
+    
+    
+    
+
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="432"/>
+            <RowDefinition Height="648"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="0">
+            <Label Text="3 + 5 = 8" FontSize="36" Grid.Column="3" Grid.Row="4"/>
+
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="0" Padding="7" BackgroundColor="#aaa">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="√ " Grid.Row="0" Grid.Column="0"  FontSize="24"/>
+            <Button Text="X " Grid.Row="0" Grid.Column="1"  FontSize="24"/>
+            <Button Text="/ " Grid.Row="0" Grid.Column="2" FontSize="24"/>
+            <Button Text="&lt;" Grid.Row="0" Grid.Column="3" FontSize="24"/>
+
+            <Button Text="7" Grid.Row="1" Grid.Column="0" FontSize="24"/>
+            <Button Text="8" Grid.Row="1" Grid.Column="1" FontSize="24" />
+            <Button Text="9" Grid.Row="1" Grid.Column="2" FontSize="24" />
+            <Button Text="—" Grid.Row="1" Grid.Column="3" FontSize="24"/>
+
+            <Button Text="4" Grid.Row="2" Grid.Column="0" FontSize="24" />
+            <Button Text="5" Grid.Row="2" Grid.Column="1" FontSize="24" />
+            <Button Text="6" Grid.Row="2" Grid.Column="2" FontSize="24" />
+            <Button Text="+" Grid.Row="2" Grid.Column="3" FontSize="24"/>
+            <Button Text="3" Grid.Row="3" Grid.Column="0" FontSize="24"/>
+            <Button Text="2" Grid.Row="3" Grid.Column="1" FontSize="24"/>
+            <Button Text="1" Grid.Row="3" Grid.Column="2" FontSize="24"/>
+            <Button Text="=" Grid.Row="3" Grid.Column="3" Grid.RowSpan="2" CornerRadius="5" FontSize="37"/>
+
+            <Button Text="f(X)" Grid.Row="4" Grid.Column="0" FontSize="24"/>
+            <Button Text="0" Grid.Row="4" Grid.Column="1" FontSize="24"/>
+            <Button Text="." Grid.Row="4" Grid.Column="2" FontSize="24"/>
+        </Grid>
+    </Grid> 
+
+    <!--<Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="432"/>
+            <RowDefinition Height="648"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0" Grid.Column="0">
+            <Label Text="3 + 5 = 8" FontSize="36" Grid.Column="3" Grid.Row="4"/>
+
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="0" Padding="7" BackgroundColor="#aaa">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+                <RowDefinition Height="60"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="Sen" Grid.Row="0" Grid.Column="0"  FontSize="24"/>
+            <Button Text="Cos" Grid.Row="0" Grid.Column="1"  FontSize="24"/>
+            <Button Text="Tan" Grid.Row="0" Grid.Column="2" FontSize="24"/>
+            <Button Text="Log" Grid.Row="0" Grid.Column="3" FontSize="24"/>
+
+            <Button Text="-1" Grid.Row="1" Grid.Column="0" FontSize="24"/>
+            <Button Text="x10^" Grid.Row="1" Grid.Column="1" FontSize="24" />
+            <Button Text="x²" Grid.Row="1" Grid.Column="2" FontSize="24" />
+            <Button Text="𝝅" Grid.Row="1" Grid.Column="3" FontSize="24"/>
+
+            <Button Text="(" Grid.Row="2" Grid.Column="0" FontSize="24" />
+            <Button Text=")" Grid.Row="2" Grid.Column="1" FontSize="24" />
+            <Button Text="dx" Grid.Row="2" Grid.Column="2" FontSize="24" />
+            <Button Text="∫dx" Grid.Row="2" Grid.Column="3" FontSize="24"/>
+            <Button Text="x/y" Grid.Row="3" Grid.Column="0" FontSize="24"/>
+            <Button Text="e" Grid.Row="3" Grid.Column="1" FontSize="24"/>
+            <Button Text="f(x)" Grid.Row="3" Grid.Column="2" FontSize="24"/>
+            <Button Text="°" Grid.Row="3" Grid.Column="3" CornerRadius="5" FontSize="37"/>
+
+            <Button Text="ab" Grid.Row="4" Grid.Column="0" FontSize="24"/>
+            <Button Text="Mode" Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="2" FontSize="24"/>
+            <Button Text="123" Grid.Row="4" Grid.Column="3" FontSize="24"/>
+        </Grid>
+    </Grid> -->
+    
+
+</ContentPage>

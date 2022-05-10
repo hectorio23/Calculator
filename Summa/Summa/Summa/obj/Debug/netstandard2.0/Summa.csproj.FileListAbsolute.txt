@@ -1,0 +1,15 @@
+C:\Users\hecto\Desktop\Proyecto_IOS\Summa\Summa\Summa\bin\Debug\netstandard2.0\Summa.deps.json
+C:\Users\hecto\Desktop\Proyecto_IOS\Summa\Summa\Summa\bin\Debug\netstandard2.0\Summa.dll
+C:\Users\hecto\Desktop\Proyecto_IOS\Summa\Summa\Summa\bin\Debug\netstandard2.0\Summa.pdb
+C:\Users\hecto\Desktop\Proyecto_IOS\Summa\Summa\Summa\obj\Debug\netstandard2.0\Summa.csproj.AssemblyReference.cache
+C:\Users\hecto\Desktop\Proyecto_IOS\Summa\Summa\Summa\obj\Debug\netstandard2.0\Summa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hecto\Desktop\Proyecto_IOS\Summa\Summa\Summa\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\hecto\Desktop\Proyecto_IOS\Summa\Summa\Summa\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\hecto\Desktop\Proyecto_IOS\Summa\Summa\Summa\obj\Debug\netstandard2.0\Summa.AssemblyInfoInputs.cache
+C:\Users\hecto\Desktop\Proyecto_IOS\Summa\Summa\Summa\obj\Debug\netstandard2.0\Summa.AssemblyInfo.cs
+C:\Users\hecto\Desktop\Proyecto_IOS\Summa\Summa\Summa\obj\Debug\netstandard2.0\Summa.csproj.CoreCompileInputs.cache
+C:\Users\hecto\Desktop\Proyecto_IOS\Summa\Summa\Summa\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\hecto\Desktop\Proyecto_IOS\Summa\Summa\Summa\obj\Debug\netstandard2.0\Summa.dll
+C:\Users\hecto\Desktop\Proyecto_IOS\Summa\Summa\Summa\obj\Debug\netstandard2.0\refint\Summa.dll
+C:\Users\hecto\Desktop\Proyecto_IOS\Summa\Summa\Summa\obj\Debug\netstandard2.0\Summa.pdb
+C:\Users\hecto\Desktop\Proyecto_IOS\Summa\Summa\Summa\obj\Debug\netstandard2.0\ref\Summa.dll
